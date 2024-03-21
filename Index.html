@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptado</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="Contenedor">
+        <div class="Texto-Encriptar">
+            <div class="titulo">
+                <h1 class="titulo-secreto">Mensaje Secreto...</h1>
+            </div>
+            
+            <div class="mensaje-encriptado">
+                <textarea Id="texto" class="mensaje-ingresado" placeholder="Ingresa Texto aquí" cols="50" rows="10"></textarea>
+            </div>
+            
+            <div class="regla">
+                <p class="regla-escrita">Favor de ingresar texto en minusculas y sin acentos</p>
+                
+            </div>
+        </div>
+
+        <div class="botones">
+                <input type="button" class="Boton-Encriptado" value="Encriptado" onclick="encriptar()">
+                <input type="button" class="Boton-Desncriptado" value="Desencriptado" onclick="desencriptar()">
+        </div>
+    
+       
+        
+        <div class="Resultado">
+            <img class="imagen-analizando" src="Img/encrip.png">
+            <h2 class="mensaje-resultado" Id="titulo-mensaje">Ningún mensaje fue encontrado</h2>
+            <p class="orden" Id="parrafo">Ingresa mensaje que desees encriptar o  desencriptar</p>        
+        </div>
+
+    </div>
+    
+
+    <footer>
+       <a href="https://www.facebook.com/profile.php?id=100086388712199"> <img src="Img/f1.png" class="face"></a>
+       <a href="https://www.instagram.com/3m.7om/"> <img src="Img/ig2.png" class="ig"></a>
+    </footer>
+    
+</body>
+<script src="encriptado.js"></script>
+</html>
